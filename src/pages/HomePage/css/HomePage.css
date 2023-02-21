@@ -44,8 +44,9 @@ body {
     padding: 2vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    height: 100%;
 }
 
 #Thanks-Container{
@@ -55,22 +56,27 @@ body {
     justify-self: flex-start;
 }
 
+#Start-Container {
+    height: 100%;
+    width: 100%;
+}
+
 #Start {
-    width: 200px;
-    height: 200px;
-    font-size: 2vw;
+    width: 60%;
+    height: 60%;
+    font-size: 5vh;
     color: black;
-    padding-left: 25px;
-    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-bottom: 5%;
     font-family: 'Gloock', serif;
     background-image: url(/src/components/Header.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: black;
-    background-size: contain;
-    border-radius: 100%;
+    background-color: transparent;
     border: 0;
+    background-size: contain;
     transition: color 0.5s, text-shadow 0.5s;
+    margin: 10% 20% 0% 20%;
 }
 
 #Start:hover {
@@ -99,7 +105,11 @@ p {
 }
 
 a {
-    
+    color: #8b0aac;
+}
+
+a:hover{
+    color: yellow;
 }
 
 #Fortschritt {
@@ -107,8 +117,8 @@ a {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 100px;
-    width: 100px;
+    height: 5vw;
+    width: 5vw;
     padding: 0px;
     margin: 0px;
 }
