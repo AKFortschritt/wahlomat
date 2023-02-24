@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@100&display=swap');
 
+/* Utility classes */
+.animate{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animate.animate--infinite {
+    animation-iteration-count: infinite;
+}
+
+.animate.animate--slow {
+    animation-duration: 4s;
+}
+
+
+/* Animations */
+@keyframes float {
+    0%{
+        transform: translateY(2vh);
+    }
+    50%{
+        transform: translateY(-2vh);
+    }
+    100%{
+        transform: translateY(2vh);
+    }
+}
+
+.float{
+    animation-name: float;
+    animation-timing-function: ease-in-out;
+}
+
+
+/* CSS */
 body {
     background-image : url(/src/components/Background2.jpg);
     background-repeat: no-repeat;
