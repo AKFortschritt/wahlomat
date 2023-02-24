@@ -8,10 +8,7 @@ interface IHomePageProps {
 
 const HomePage:React.FC<IHomePageProps> = (Props:IHomePageProps):JSX.Element => {
 
-    const clickedStart = () => {
-        let navigate = useNavigate();
-        navigate('/questions', {replace: true});
-    }
+    const navigate = useNavigate();
 
     return <div id = "page">
                 <div id="Header">
@@ -22,7 +19,7 @@ const HomePage:React.FC<IHomePageProps> = (Props:IHomePageProps):JSX.Element => 
                     <div id="Main">
                         <p id="Explanation">Der Wahl-O-Mat ist eine Tool erstellt von Schülern mit Verantwortung für Schüler mit Verantwortung. Er soll dazu dienen für einen passende, an der Schule angebotene Wahlkurse und AKs aber auch Wettbewerbe zu finden und kann auch zur Wahl von P und W Seminar sowie weiteren Abiturfächern benutzt werden. Mit dem Wahl-O-Maten könnt ihr von der Erfahrung vorheriger Schüler und der Einschätzung vieler Profitieren um das Richtige für euch zu finden</p>
                         <div id="Start-Container">
-                            <button id="Start" className="animate float animate--infinite animate--slow" onClick={clickedStart}>Start</button>
+                            <button id="Start" className="animate float animate--infinite animate--slow" onClick={() => navigate("/questions")}>Start</button>
                         </div>
                     </div>
                     <div id="Thanks-Container">
