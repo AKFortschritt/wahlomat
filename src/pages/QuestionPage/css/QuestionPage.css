@@ -2,23 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@100&display=swap');
 
 body {
-    background-image : url(/src/components/Background3.png);
+    background-image : url(/src/components/Background4.png);
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
     background-position-x: center;
+    background-position-y: bottom;
 }
 
 h1 {
     color: #8b0aac;
-    font-size: 5vw;
+    font-size: 10vh;
     font-family: 'Gloock', serif;
     text-align: center;
 }
 
 h2 {
     color: yellow;
-    font-size: 2vw;
+    font-size: 4vh;
     font-family: 'Gloock', serif;
     text-align: center;
 }
@@ -26,9 +27,9 @@ h2 {
 #Questions {
     height: 500px;
     width: 500px;
-    background-image : url(/src/components/Questions.png);
     background-repeat: no-repeat;
     background-color: transparent;
-    background-size: cover;
+    background-size: contain;
     background-position-x: center;
+
 }

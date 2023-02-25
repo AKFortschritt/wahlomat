@@ -41,7 +41,7 @@ body {
     background-repeat: no-repeat;
     background-color: black;
     background-size: contain;
-    background-position-x: right;
+    background-position-x: right; 
 }
 
 #root {
