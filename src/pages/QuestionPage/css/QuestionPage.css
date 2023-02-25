@@ -10,11 +10,17 @@ body {
     background-position-y: bottom;
 }
 
+#page, #root {
+    width: 100%;
+    height: 100%;
+}
+
 h1 {
     color: #8b0aac;
     font-size: 10vh;
     font-family: 'Gloock', serif;
     text-align: center;
+    height: 10vh;
 }
 
 h2 {
@@ -22,14 +28,37 @@ h2 {
     font-size: 4vh;
     font-family: 'Gloock', serif;
     text-align: center;
+    height: 10vh;
 }
 
 #Questions {
-    height: 500px;
-    width: 500px;
+    margin: 10vh 10%;
+    width: 80%;
+    height: 60vh;
+    background-image: url(/src/components/Questions2.png);
     background-repeat: no-repeat;
     background-color: transparent;
     background-size: contain;
     background-position-x: center;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+h3 {
+    padding: 5vh 10% 5vh 10%;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#Yes, #No {
+    width: 15vw;
+    height: 5vh;
+    margin: 0 2vw;
+    font-size: 2vh;
+    background-color: yellow;
+    border: 0;
+    border-radius: 1vw;
 }

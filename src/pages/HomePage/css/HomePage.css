@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@100&display=swap');
 
 /* Utility classes */
-.animate{
+/*.animate{
     animation-duration: 1s;
     animation-fill-mode: both;
 }
@@ -17,7 +17,7 @@
 
 
 /* Animations */
-@keyframes float {
+/*@keyframes float {
     0%{
         transform: translateY(2vh);
     }
@@ -36,7 +36,7 @@
 
 
 /* CSS */
-body {
+/*body {
     background-image : url(/src/components/Background2.jpg);
     background-repeat: no-repeat;
     background-color: black;
@@ -156,4 +156,4 @@ a:hover{
     width: 5vw;
     padding: 0px;
     margin: 0px;
-}
+}*/
