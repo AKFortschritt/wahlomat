@@ -123,10 +123,9 @@ a:hover{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 5vw;
-    width: 5vw;
-    padding: 0;
-    margin: 20px 0;
+    height: 8vw;
+    width: 8vw;
+    margin: 10px 0;
 }
 
 /* Responsive */

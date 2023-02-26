@@ -26,7 +26,7 @@ const HomePage:React.FC<IHomePageProps> = (Props:IHomePageProps):JSX.Element => 
                     <div id="thanks-container">
                         <p id="thanks">Der Wahl-O-Mat wurde erstellt vom <a href="blank">AK-Fortschritt</a>, viel Spaß ! </p>
                         <p>Wir kümmern uns um die kleinen Dinge im Leben!</p>
-                        <img id="fortschritt" alt="Fortschritt.png"></img>
+                        <div id="fortschritt"></div>
                     </div>
                 </div>
             </div>
