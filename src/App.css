@@ -31,3 +31,43 @@ body {
 	padding:0;
 	height:100%;
 }
+
+/* General CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat:wght@100&display=swap');
+
+body {
+  background-repeat: no-repeat;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#page, #root {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  color: #8b0aac;
+  font-size: 5vw;
+  text-align: center;
+  font-family: 'Gloock', serif;
+}
+
+h2 {
+  color: yellow;
+  font-size: 2vw;
+  text-align: center;
+  font-family: 'Gloock', serif;
+}
+
+p {
+  color:white;
+  font-size: 1.2vw;
+  text-align: justify;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}

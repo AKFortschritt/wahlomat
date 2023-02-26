@@ -10,11 +10,11 @@ const QuestionPage:React.FC<IQuestionSiteProps> = (Props:IQuestionSiteProps):JSX
     return <div id="page">
             <h1>Der Wahl-O-Mat</h1>
             <h2>Frage 1 von 40</h2>
-            <div id="Questions">
-                <h3>Schwörst du Bruder aufs kleine schwarze Büchlein, dass du kämpfen wirst um Einigkeit und Recht und Fortschritt herbeizuführen?</h3>
-                <div id="Answers">
-                    <button id="Yes">Ja</button>
-                    <button id="No">Nein</button>
+            <div id="questions">
+                <p id="question_paragraph">Schwörst du Bruder aufs kleine schwarze Büchlein, dass du kämpfen wirst um Einigkeit und Recht und Fortschritt herbeizuführen?</p>
+                <div id="question_answers">
+                    <button id="yes">Ja</button>
+                    <button id="no">Nein</button>
                 </div>
             </div>
         </div>
