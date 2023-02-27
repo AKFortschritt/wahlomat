@@ -1,4 +1,5 @@
-
 #Freiheit.Gleichheit.Brüderlichkeit does not apply to the following folders:
 node_modules/
 build/
+develop/
+**/.DS_Store

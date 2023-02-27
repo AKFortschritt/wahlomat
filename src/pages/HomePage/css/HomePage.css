@@ -35,35 +35,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
 }
 
 #HStartContainer {
-    height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #HStartBtn {
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
     font-size: 5vh;
     color: black;
-    padding-left: 5%;
-    padding-bottom: 5%;
+    padding: 7% 0 20% 3%;
+    margin: 5vh 0 -5vh 0;
     font-family: 'Gloock', serif;
-    background-image: url(/src/components/Header.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    border: 0;
-    background-size: contain;
-    transition: color 0.5s, text-shadow 0.5s;
-    margin: 10% 20% 0% 20%;
-    animation-fill-mode: both;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    animation-timing-function: ease-in-out;
+    background: url(/src/components/Header.png) center/contain no-repeat;
+    border: none;
+    transition: all 0.5s;
+    animation: float 4s ease-in-out infinite;
 }
 
 #HStartBtn:hover {
@@ -72,6 +64,7 @@
 }
 
 #HTanksContainer {
+    padding: 2vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,9 +76,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height: 8vw;
-    width: 8vw;
-    margin: 10px 0;
+    height: 150px;
+    width: 150px;
+    margin: 10px 0 0 0;
 }
 
 /* Responsive */
@@ -135,13 +128,13 @@
         font-size: 5.5vw;
     }
     #HStartBtn {
-        margin-bottom: 150px;
-        padding-left: 15%;
-        padding-bottom: 10%;
+        padding: 13% 0 25% 3%;
+        margin: 8vh 0 3vh 0;
     }
     #HFortschritt {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
+        margin: 0;
     }
     #HPage {
         height: auto;
@@ -149,17 +142,17 @@
         background-size: 1000px;
     }
     @keyframes float {
-        0%{
+        0% {
             transform: translateY(2vh);
             color: #fffcce;
             text-shadow: #8b0aac 1px 0 10px;
         }
-        50%{
+        50% {
             transform: translateY(-2vh);
             color: black;
             text-shadow: none;
         }
-        100%{
+        100% {
             transform: translateY(2vh);
             color: #fffcce;
             text-shadow: #8b0aac 1px 0 10px;
