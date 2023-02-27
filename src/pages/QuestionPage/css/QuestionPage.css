@@ -1,12 +1,16 @@
 /* CSS */
-/*body {
+#QPage {
     background-image : url(/src/components/Background4.png);
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 100%;
+    width: 100%;
 }
 
-#questions {
+#QMain {
     margin: 10vh 10%;
     width: 80%;
     height: 60vh;
@@ -22,17 +26,17 @@
     align-items: center;
 }
 
-#question_paragraph {
+#QParagraph {
     margin: 0 15%;
     font-size: 2.5vh;
     text-align: center;
 }
 
-#question_answers {
+#QAnswers {
     margin-top: 30px;
 }
 
-#yes, #no {
+#QYes, #QNo {
     width: 15vw;
     height: 5vh;
     margin: 0 2vw;
